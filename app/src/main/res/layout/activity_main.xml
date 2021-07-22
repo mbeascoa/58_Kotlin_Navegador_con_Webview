@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textWebPage"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Web page" />
+
+    <Button
+        android:id="@+id/goPageButton"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Go" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="431dp">
+
+    </WebView>
+
+    <Button
+        android:id="@+id/backPageButton"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Back" />
+
+</LinearLayout>

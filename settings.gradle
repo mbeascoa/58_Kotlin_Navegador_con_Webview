@@ -1,0 +1,2 @@
+rootProject.name = "58_Navegador_con_Webview"
+include ':app'
